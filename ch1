@@ -1,0 +1,82 @@
+Python Programming | Chapter 1 Exercises
+
+1. a) Hardware is the physical computer itself. It consists of three primary
+      components: the central processing unit(CPU), memory, and hard disk.
+      The CPU can be thought of as the brain of the machine. It can perform
+      simple calculation and comparisons. Memory stores programs and data. 
+      Main memory is volatile, meaning that it will only store information
+      while the power is turned on. This is where the hard disk comes in as
+      a more permanent way of storing programs and data.
+
+      Software is the instructions we give to the computer. It consist of
+      programs written in programming languages which are interpreted or
+      compiled into machine language that the hardware can execute. All the
+      none physical parts of your computer that you can change without having
+      to get out a screwdriver.
+
+   b) Programs are instructions written for a computer to execute. Algorithms
+      are patterns of data manipulation. Programs strictly speaking are
+      algorithms but not all algorithms need to be programs. In other words,
+      algorithms discribe how to do something while programs describe how to
+      do something to a computer.
+
+   c) Natural languages are commonly spoken amoung humans. English, Korean,
+      and Spanish are all examples of natural languages. Computer hardware
+      doesn't understand natural languages. Therefore, computer scientist have
+      developed programing languages that we can use to speak to computers.
+
+   d) High-Level languages are languages which are either interpreted or
+      compiled into machine code. Machine language is code which computer
+      hardware directly executes. Machine language is very complex (lots of 1s
+      and 0s) so high-level languages abstract away this complexity to make
+      talking to the hardware easier.
+
+   e) Compilers convert high-level language code into machine code.
+      Interpreters run as a virtual machine that understands high-level
+      language. Compiled programs are generally faster than interpreted.
+      However, interpreted programs have advantages such as not having to be
+      recompiled for different hardware.
+
+   f) Syntax is the form. Semantics is the meaning. English and Spanish have
+      different syntax. I can say, "Hello" in English or, "Hola" in Spanish.
+      The meaning, or semantics, is the same though. Similarly, a program can be
+      written many ways (even in the same language) and achieve the same
+      outcome.
+
+2. Input Devices (Keyboard, Mouse, Microphone) - Input data into memory.
+   CPU - Fetches, decodes, and executes data. Performs simple math and compares.
+   Main Memory - Stores data for immediate use/manipulation. Volatile.
+   Hard Disk - Stores data for future use/manipulation. Permanent.
+   Output Devices (Monitor, Printer, Speakers) - Output data for human review.
+
+3. define make_pbj_sandwich()
+       p = peanut_butter
+       j = jelly
+       b = [bread * 2]
+       b[0].apply(p)
+       b[1].apply(j)
+       b.join()
+
+4. If a task requires extreme pricision, for example rearranging atoms with an
+   electron tunneling microscope, having inexact numbers could result in vastly
+   different program outcomes.
+
+5. Tracing Chaos:
+   x = 0.15
+   x = 0.49725
+   x = 0.97497050625
+   x = 0.335845009364
+   x = 0.869907242293
+   x = 0.441357665188
+   x = 0.961588198614
+   x = 0.14405170611
+   x = 0.4808731671
+   x = 0.973573240627
+
+6. done
+
+7. Modifying the Chaos program so that x = 2.0 * x * (1 - x) causes the output
+   to trend towards 0.5. I reaches 0.5 faster the closer the starting x is to 
+   0.5.
+
+

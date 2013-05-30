@@ -1,0 +1,56 @@
+Python Programming | Chapter 2 Exercises
+
+1. 1. Forumlate Requirements - Indentify exactly what the problem is.
+   2. Determine Specifications - Describe exactly what the program will do.
+   3. Create a Design - Formulate the program structure in pseudocode.
+   4. Implement the Design - Translate design into Python code.
+   5. Test/Debug the Program - Run stress tests to determine if the program works.
+   6. Maintain the Program - Continue developing to the needs of your users.
+
+2. # convert.py
+   #    Celcius to Fehrenheit Conversion
+   # by: Ryan Linton
+
+   def main():
+       print "This program converts Celcius temperatures to Fehrenheit"
+       celcius = input("Please enter a temperature in celcius: ")
+
+       fehrenheit = 9.0 / 5.0 * celcius + 32
+
+       print fehrenheit
+
+   main()
+
+3. # avg2.py
+   #    Average 3 Exam Scores
+   # by: Ryan Linton
+
+   def main():
+       print "This program averages three exam scores"
+       x, y, z = input("Please enter 3 exam scores seperated by commas: ")
+
+       avg = (x + y + z)/ 3.0
+
+       print avg
+
+   main()
+
+4. # futval.py
+   #    Calculates the Future Value of an Investment
+   # by: Ryan Linton
+
+   def main():
+       print "This program calculates the future value of an investment"
+       principal = input("What is the Principal: ")
+       apr       = input("What is the APR: ")
+       years     = input("How many years will the money be invested: ")
+
+       for i in range(years):
+           principal = principal * (1 + apr)
+
+       print "The amount in", years, "years is:", principal
+
+   main()
+
+5.
+
